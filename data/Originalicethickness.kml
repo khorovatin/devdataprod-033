@@ -1,0 +1,2467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Original ice thickness</name>
+  <description><![CDATA[]]></description>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style82">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style125">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style105">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style91">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style142">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style137">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style84">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style50">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style53">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style130">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style97">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style146">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style114">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style79">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style80">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style123">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style102">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style52">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style115">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style124">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style150">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style134">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style58">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style55">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style83">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style135">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style132">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style59">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style131">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style116">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style156">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style98">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style99">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style101">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style61">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style157">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style161">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style66">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style148">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style92">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style85">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style70">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style159">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style51">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style163">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style144">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style67">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style140">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style143">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style129">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style93">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style121">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style73">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style95">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style88">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style117">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style158">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style109">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style126">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style72">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style155">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style147">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style133">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style136">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style56">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style81">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style106">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style103">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style120">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style151">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style89">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style112">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style100">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style152">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style68">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style149">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style160">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style77">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style138">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style63">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style107">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style104">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style87">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style96">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style94">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style164">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style54">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style110">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style118">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style71">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style153">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style113">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style119">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style65">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style74">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style145">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style90">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style108">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style162">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style122">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style154">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style127">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style75">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style62">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style76">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style69">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style57">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style141">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style64">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style60">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style86">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style128">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style139">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style78">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style111">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>14A (END BECANCOUR DOCK)</name>
+    <description><![CDATA[View ice thickness data]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-72.381981,46.399811,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>14B (MID BECANCOUR DOCK)</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style82</styleUrl>
+    <Point>
+      <coordinates>-72.380264,46.398354,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A1</name>
+    <description><![CDATA[+45° 31' 47.16", -73° 31' 38.14"<BR>]]></description>
+    <styleUrl>#style125</styleUrl>
+    <Point>
+      <coordinates>-73.527260,45.529766,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A10</name>
+    <description><![CDATA[+45° 24' 27.21", -73° 43' 43.57"<BR>]]></description>
+    <styleUrl>#style105</styleUrl>
+    <Point>
+      <coordinates>-73.728767,45.407558,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A2</name>
+    <description><![CDATA[+45° 30' 52.11", -73° 31' 25.94"<BR>]]></description>
+    <styleUrl>#style91</styleUrl>
+    <Point>
+      <coordinates>-73.523872,45.514477,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A3</name>
+    <description><![CDATA[+45° 30' 32.93", -73° 31' 20.52"<BR>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>-73.522369,45.509148,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A7</name>
+    <description><![CDATA[+45° 24' 35.47", -73° 34' 20.55"<BR>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-73.572372,45.409855,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A8</name>
+    <description><![CDATA[+45° 24' 27.46", -73° 36' 54.52"<BR>]]></description>
+    <styleUrl>#style142</styleUrl>
+    <Point>
+      <coordinates>-73.615143,45.407627,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>A9</name>
+    <description><![CDATA[+45° 25' 0.14", -73° 41' 35.33"<BR>]]></description>
+    <styleUrl>#style137</styleUrl>
+    <Point>
+      <coordinates>-73.693146,45.416706,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Alert LT1</name>
+    <description><![CDATA[+82° 29' 26.46", -62° 34' 56.22"<BR>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>-62.582283,82.490685,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Alert YLT</name>
+    <description><![CDATA[+82° 28' 59.81", -62° 20' 49.26"<BR>]]></description>
+    <styleUrl>#style84</styleUrl>
+    <Point>
+      <coordinates>-62.347015,82.483276,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Anstruther Lake</name>
+    <description><![CDATA[+44° 44' 36.01", -78° 12' 28.00"<BR>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-78.207779,44.743336,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Arctic Bay</name>
+    <description><![CDATA[+73° 2' 16.02", -85° 9' 9.11"<BR>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-85.152527,73.037781,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Atherley</name>
+    <description><![CDATA[+44° 36' 4.07", -79° 21' 40.16"<BR>]]></description>
+    <styleUrl>#style50</styleUrl>
+    <Point>
+      <coordinates>-79.361153,44.601131,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>B2</name>
+    <description><![CDATA[+45° 24' 3.35", -73° 46' 49.66"<BR>]]></description>
+    <styleUrl>#style53</styleUrl>
+    <Point>
+      <coordinates>-73.780464,45.400932,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>B4</name>
+    <description><![CDATA[+45° 22' 18.21", -73° 49' 19.88"<BR>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-73.822189,45.371723,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>B5</name>
+    <description><![CDATA[+45° 20' 49.12", -73° 52' 16.05"<BR>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>-73.871124,45.346977,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>B8</name>
+    <description><![CDATA[+45° 19' 22.37", -73° 54' 36.88"<BR>]]></description>
+    <styleUrl>#style130</styleUrl>
+    <Point>
+      <coordinates>-73.910248,45.322880,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bagotville</name>
+    <description><![CDATA[+48° 20' 0.12", -70° 59' 0.16"<BR>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-70.983376,48.333366,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Baker Lake</name>
+    <description><![CDATA[+64° 18' 0.00", -96° 5' 0.00"<BR>]]></description>
+    <styleUrl>#style97</styleUrl>
+    <Point>
+      <coordinates>-96.083328,64.300003,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Balsam Lake</name>
+    <description><![CDATA[+44° 35' 0.93", -78° 50' 37.02"<BR>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-78.843620,44.583591,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Big Trout Lake</name>
+    <description><![CDATA[+53° 50' 0.00", -89° 52' 0.00"<BR>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-89.866669,53.833332,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Blanc-Sablon</name>
+    <description><![CDATA[+51° 26' 0.06", -57° 11' 0.02"<BR>]]></description>
+    <styleUrl>#style146</styleUrl>
+    <Point>
+      <coordinates>-57.183338,51.433350,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Botwood</name>
+    <description><![CDATA[+48° 57' 0.02", -54° 34' 0.01"<BR>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-54.566669,48.950005,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brochet</name>
+    <description><![CDATA[+57° 52' 59.99", -101° 41' 0.00"<BR>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>-101.683334,57.883331,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Buckhorn Lake</name>
+    <description><![CDATA[+44° 29' 19.99", -78° 23' 29.01"<BR>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>-78.391388,44.488884,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>C1</name>
+    <description><![CDATA[+45° 17' 51.00", -73° 55' 18.08"<BR>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-73.921692,45.297501,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cambridge Bay</name>
+    <description><![CDATA[+69° 7' 0.00", -105° 8' 0.00"<BR>]]></description>
+    <styleUrl>#style114</styleUrl>
+    <Point>
+      <coordinates>-105.133331,69.116669,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Canal Lake</name>
+    <description><![CDATA[+44° 34' 13.00", -79° 2' 37.99"<BR>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-79.043884,44.570278,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cape Dorset</name>
+    <description><![CDATA[+64° 14' 0.00", -76° 32' 0.00"<BR>]]></description>
+    <styleUrl>#style79</styleUrl>
+    <Point>
+      <coordinates>-76.533333,64.233330,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cape Parry</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style80</styleUrl>
+    <Point>
+      <coordinates>-124.669228,70.150276,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Caraquet</name>
+    <description><![CDATA[+47° 48' 0.01", -64° 55' 0.00"<BR>]]></description>
+    <styleUrl>#style123</styleUrl>
+    <Point>
+      <coordinates>-64.916664,47.800003,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cartwright</name>
+    <description><![CDATA[+53° 42' 21.00", -57° 0' 25.00"<BR>]]></description>
+    <styleUrl>#style102</styleUrl>
+    <Point>
+      <coordinates>-57.006943,53.705833,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chemung Lake</name>
+    <description><![CDATA[+45° 51' 51.07", -78° 47' 57.31"<BR>]]></description>
+    <styleUrl>#style52</styleUrl>
+    <Point>
+      <coordinates>-78.799255,45.864185,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chesterfield Inlet</name>
+    <description><![CDATA[+63° 20' 0.00", -90° 42' 0.00"<BR>]]></description>
+    <styleUrl>#style115</styleUrl>
+    <Point>
+      <coordinates>-90.699997,63.333336,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Churchill</name>
+    <description><![CDATA[+58° 44' 21.00", -94° 3' 54.01"<BR>]]></description>
+    <styleUrl>#style124</styleUrl>
+    <Point>
+      <coordinates>-94.065002,58.739166,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Clyde</name>
+    <description><![CDATA[+70° 29' 0.00", -68° 31' 0.00"<BR>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-68.516670,70.483330,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Conway Narrows</name>
+    <description><![CDATA[+46° 40' 19.42", -63° 54' 28.97"<BR>]]></description>
+    <styleUrl>#style150</styleUrl>
+    <Point>
+      <coordinates>-63.908047,46.672062,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coppermine</name>
+    <description><![CDATA[+67° 50' 0.00", -115° 5' 0.00"<BR>]]></description>
+    <styleUrl>#style134</styleUrl>
+    <Point>
+      <coordinates>-115.083336,67.833336,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coral Harbour</name>
+    <description><![CDATA[+64° 7' 41.26", -83° 15' 43.61"<BR>]]></description>
+    <styleUrl>#style58</styleUrl>
+    <Point>
+      <coordinates>-83.262115,64.128128,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Corner Brook</name>
+    <description><![CDATA[+48° 56' 48.99", -57° 56' 37.99"<BR>]]></description>
+    <styleUrl>#style55</styleUrl>
+    <Point>
+      <coordinates>-57.943886,48.946941,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cree Lake</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-106.500557,57.500000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D1</name>
+    <description><![CDATA[+45° 13' 43.02", -74° 13' 56.34"<BR>]]></description>
+    <styleUrl>#style83</styleUrl>
+    <Point>
+      <coordinates>-74.232315,45.228615,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D2</name>
+    <description><![CDATA[+45° 12' 54.14", -74° 16' 58.43"<BR>]]></description>
+    <styleUrl>#style135</styleUrl>
+    <Point>
+      <coordinates>-74.282898,45.215038,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D3</name>
+    <description><![CDATA[+45° 11' 1.45", -74° 19' 24.66"<BR>]]></description>
+    <styleUrl>#style132</styleUrl>
+    <Point>
+      <coordinates>-74.323517,45.183739,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D4</name>
+    <description><![CDATA[+45° 7' 43.02", -74° 27' 8.02"<BR>]]></description>
+    <styleUrl>#style59</styleUrl>
+    <Point>
+      <coordinates>-74.452225,45.128616,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D5</name>
+    <description><![CDATA[+45° 5' 19.59", -74° 30' 30.28"<BR>]]></description>
+    <styleUrl>#style131</styleUrl>
+    <Point>
+      <coordinates>-74.508408,45.088776,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D6</name>
+    <description><![CDATA[+45° 3' 16.41", -74° 33' 27.50"<BR>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>-74.557640,45.054558,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D7</name>
+    <description><![CDATA[+45° 2' 14.31", -74° 36' 55.63"<BR>]]></description>
+    <styleUrl>#style116</styleUrl>
+    <Point>
+      <coordinates>-74.615456,45.037308,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>D8</name>
+    <description><![CDATA[+45° 1' 25.80", -74° 38' 45.22"<BR>]]></description>
+    <styleUrl>#style156</styleUrl>
+    <Point>
+      <coordinates>-74.645897,45.023830,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Deer Bay</name>
+    <description><![CDATA[+44° 31' 47.00", -77° 49' 3.00"<BR>]]></description>
+    <styleUrl>#style98</styleUrl>
+    <Point>
+      <coordinates>-77.817497,44.529720,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>E1</name>
+    <description><![CDATA[+44° 58' 39.57", -74° 52' 6.85"<BR>]]></description>
+    <styleUrl>#style99</styleUrl>
+    <Point>
+      <coordinates>-74.868568,44.977657,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>E2</name>
+    <description><![CDATA[+44° 57' 47.42", -74° 58' 1.46"<BR>]]></description>
+    <styleUrl>#style101</styleUrl>
+    <Point>
+      <coordinates>-74.967072,44.963173,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Eels Lake</name>
+    <description><![CDATA[+44° 53' 9.96", -78° 7' 34.16"<BR>]]></description>
+    <styleUrl>#style61</styleUrl>
+    <Point>
+      <coordinates>-78.126152,44.886101,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Egmont Bay</name>
+    <description><![CDATA[+46° 34' 0.00", -64° 14' 0.00"<BR>]]></description>
+    <styleUrl>#style157</styleUrl>
+    <Point>
+      <coordinates>-64.233330,46.566666,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ennadai Lake</name>
+    <description><![CDATA[+60° 58' 0.01", -101° 20' 0.01"<BR>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>-101.333336,60.966667,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Eureka</name>
+    <description><![CDATA[+79° 58' 59.99", -85° 57' 0.02"<BR>]]></description>
+    <styleUrl>#style161</styleUrl>
+    <Point>
+      <coordinates>-85.950005,79.983330,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>F1</name>
+    <description><![CDATA[+44° 56' 16.69", -75° 2' 31.94"<BR>]]></description>
+    <styleUrl>#style66</styleUrl>
+    <Point>
+      <coordinates>-75.042206,44.937969,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>F2</name>
+    <description><![CDATA[+44° 52' 42.81", -75° 12' 9.97"<BR>]]></description>
+    <styleUrl>#style148</styleUrl>
+    <Point>
+      <coordinates>-75.202766,44.878559,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fort Chipewyan</name>
+    <description><![CDATA[+58° 42' 0.00", -111° 9' 0.00"<BR>]]></description>
+    <styleUrl>#style92</styleUrl>
+    <Point>
+      <coordinates>-111.150002,58.700001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fort Reliance</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style85</styleUrl>
+    <Point>
+      <coordinates>-109.162781,62.711941,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Frechette Point</name>
+    <description><![CDATA[+45° 46' 37.00", -82° 41' 52.01"<BR>]]></description>
+    <styleUrl>#style70</styleUrl>
+    <Point>
+      <coordinates>-82.697777,45.776943,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>G1</name>
+    <description><![CDATA[+44° 49' 37.34", -75° 19' 10.07"<BR>]]></description>
+    <styleUrl>#style159</styleUrl>
+    <Point>
+      <coordinates>-75.319466,44.827038,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>G2</name>
+    <description><![CDATA[+44° 49' 11.06", -75° 19' 11.78"<BR>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-75.319939,44.819740,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gimli</name>
+    <description><![CDATA[+50° 38' 0.00", -96° 58' 59.97"<BR>]]></description>
+    <styleUrl>#style51</styleUrl>
+    <Point>
+      <coordinates>-96.983322,50.633331,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gladman Point</name>
+    <description><![CDATA[+68° 38' 0.00", -97° 43' 0.00"<BR>]]></description>
+    <styleUrl>#style163</styleUrl>
+    <Point>
+      <coordinates>-97.716667,68.633331,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gloucester Pool</name>
+    <description><![CDATA[+44° 50' 50.13", -79° 42' 2.79"<BR>]]></description>
+    <styleUrl>#style144</styleUrl>
+    <Point>
+      <coordinates>-79.700775,44.847256,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gooderham Lake</name>
+    <description><![CDATA[+44° 54' 38.99", -78° 22' 57.99"<BR>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-78.382774,44.910831,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Goose Bay</name>
+    <description><![CDATA[+53° 19' 0.00", -60° 25' 0.06"<BR>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-60.416683,53.316669,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Gull Lake</name>
+    <description><![CDATA[+44° 35' 20.02", -76° 59' 24.99"<BR>]]></description>
+    <styleUrl>#style67</styleUrl>
+    <Point>
+      <coordinates>-76.990273,44.588894,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>H1</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style140</styleUrl>
+    <Point>
+      <coordinates>-75.342583,44.815765,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>H2</name>
+    <description><![CDATA[+44° 44' 54.66", -75° 26' 40.15"<BR>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>-75.444489,44.748516,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>H3</name>
+    <description><![CDATA[+44° 42' 5.51", -75° 31' 3.66"<BR>]]></description>
+    <styleUrl>#style143</styleUrl>
+    <Point>
+      <coordinates>-75.517685,44.701530,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>H4</name>
+    <description><![CDATA[+44° 38' 26.38", -75° 35' 53.30"<BR>]]></description>
+    <styleUrl>#style129</styleUrl>
+    <Point>
+      <coordinates>-75.598137,44.640663,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>H5</name>
+    <description><![CDATA[+44° 26' 32.45", -75° 49' 35.59"<BR>]]></description>
+    <styleUrl>#style93</styleUrl>
+    <Point>
+      <coordinates>-75.826553,44.442348,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>H7</name>
+    <description><![CDATA[+44° 12' 6.87", -76° 14' 9.57"<BR>]]></description>
+    <styleUrl>#style121</styleUrl>
+    <Point>
+      <coordinates>-76.235992,44.201908,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>H8</name>
+    <description><![CDATA[+44° 5' 49.57", -76° 24' 25.28"<BR>]]></description>
+    <styleUrl>#style73</styleUrl>
+    <Point>
+      <coordinates>-76.407021,44.097103,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hall Beach</name>
+    <description><![CDATA[+68° 47' 0.00", -81° 14' 0.00"<BR>]]></description>
+    <styleUrl>#style95</styleUrl>
+    <Point>
+      <coordinates>-81.233337,68.783333,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Halls Beach</name>
+    <description><![CDATA[+45° 7' 17.01", -78° 45' 19.00"<BR>]]></description>
+    <styleUrl>#style88</styleUrl>
+    <Point>
+      <coordinates>-78.755280,45.121391,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Harrington Harbour</name>
+    <description><![CDATA[+50° 30' 0.00", -59° 29' 59.98"<BR>]]></description>
+    <styleUrl>#style117</styleUrl>
+    <Point>
+      <coordinates>-59.499996,50.500000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Havre-Saint-Pierre</name>
+    <description><![CDATA[+50° 15' 0.00", -63° 35' 0.00"<BR>]]></description>
+    <styleUrl>#style158</styleUrl>
+    <Point>
+      <coordinates>-63.583332,50.250000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Holman Island</name>
+    <description><![CDATA[+70° 43' 0.01", -117° 43' 0.03"<BR>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-117.716675,70.716667,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hopedale</name>
+    <description><![CDATA[+55° 27' 0.00", -60° 14' 0.00"<BR>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>-60.233334,55.450001,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Inukjuak</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style109</styleUrl>
+    <Point>
+      <coordinates>-78.101662,58.454445,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Inukjuak</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-78.101662,58.454445,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Inuvik</name>
+    <description><![CDATA[+68° 18' 15.00", -133° 28' 58.01"<BR>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>-133.482788,68.304169,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Iqaluit</name>
+    <description><![CDATA[+63° 45' 0.00", -68° 33' 0.00"<BR>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-68.550003,63.750000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>ISACHSEN (OLD ICE</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-103.500000,78.783333,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Isachsen</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style126</styleUrl>
+    <Point>
+      <coordinates>-103.500000,78.783333,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Island Lake</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style72</styleUrl>
+    <Point>
+      <coordinates>-94.791672,54.208332,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Jack Lake</name>
+    <description><![CDATA[+44° 41' 38.01", -78° 1' 28.01"<BR>]]></description>
+    <styleUrl>#style155</styleUrl>
+    <Point>
+      <coordinates>-78.024445,44.693893,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kashagawigamog Lake</name>
+    <description><![CDATA[+44° 59' 49.10", -78° 35' 21.21"<BR>]]></description>
+    <styleUrl>#style147</styleUrl>
+    <Point>
+      <coordinates>-78.589226,44.996971,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kennisis Lake</name>
+    <description><![CDATA[+45° 12' 57.01", -78° 38' 30.00"<BR>]]></description>
+    <styleUrl>#style133</styleUrl>
+    <Point>
+      <coordinates>-78.641663,45.215836,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kingston</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style136</styleUrl>
+    <Point>
+      <coordinates>-76.583336,44.233334,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kuujjuaq</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style56</styleUrl>
+    <Point>
+      <coordinates>-68.437225,58.177219,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kuujjuarapik</name>
+    <description><![CDATA[+55° 16' 0.00", -77° 47' 0.00"<BR>]]></description>
+    <styleUrl>#style81</styleUrl>
+    <Point>
+      <coordinates>-77.783333,55.266666,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Grande IV</name>
+    <description><![CDATA[+53° 45' 0.00", -73° 39' 0.00"<BR>]]></description>
+    <styleUrl>#style106</styleUrl>
+    <Point>
+      <coordinates>-73.650002,53.750000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lady Franklin Point</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>-113.250000,68.483330,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lake Couchiching</name>
+    <description><![CDATA[+44° 39' 51.01", -79° 22' 34.00"<BR>]]></description>
+    <styleUrl>#style103</styleUrl>
+    <Point>
+      <coordinates>-79.376106,44.664169,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lake Scugog</name>
+    <description><![CDATA[+44° 10' 5.96", -78° 49' 58.07"<BR>]]></description>
+    <styleUrl>#style120</styleUrl>
+    <Point>
+      <coordinates>-78.832794,44.168320,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lansdowne House</name>
+    <description><![CDATA[+52° 13' 15.98", -87° 53' 13.05"<BR>]]></description>
+    <styleUrl>#style151</styleUrl>
+    <Point>
+      <coordinates>-87.886955,52.221107,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Matagami</name>
+    <description><![CDATA[+49° 55' 0.00", -74° 21' 59.99"<BR>]]></description>
+    <styleUrl>#style89</styleUrl>
+    <Point>
+      <coordinates>-74.366661,49.916664,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Midland</name>
+    <description><![CDATA[+44° 58' 29.00", -79° 18' 12.00"<BR>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-79.303337,44.974724,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Moosonee</name>
+    <description><![CDATA[+51° 16' 17.00", -80° 38' 47.00"<BR>]]></description>
+    <styleUrl>#style112</styleUrl>
+    <Point>
+      <coordinates>-80.646385,51.271389,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mould Bay</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style100</styleUrl>
+    <Point>
+      <coordinates>-119.315575,76.238045,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Natashquan</name>
+    <description><![CDATA[+50° 11' 0.00", -61° 47' 0.00"<BR>]]></description>
+    <styleUrl>#style152</styleUrl>
+    <Point>
+      <coordinates>-61.783333,50.183334,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nicolet (site A)</name>
+    <description><![CDATA[+46° 12' 45.00", -72° 39' 54.00"<BR>]]></description>
+    <styleUrl>#style68</styleUrl>
+    <Point>
+      <coordinates>-72.665001,46.212502,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nicolet (site B)</name>
+    <description><![CDATA[+46° 13' 1.00", -72° 42' 0.00"<BR>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>-72.699997,46.216946,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nicolet (site C)</name>
+    <description><![CDATA[+46° 10' 54.00", -72° 46' 9.00"<BR>]]></description>
+    <styleUrl>#style149</styleUrl>
+    <Point>
+      <coordinates>-72.769165,46.181667,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nitchequon</name>
+    <description><![CDATA[+53° 11' 50.04", -70° 54' 30.00"<BR>]]></description>
+    <styleUrl>#style160</styleUrl>
+    <Point>
+      <coordinates>-70.908333,53.197231,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Norman Wells</name>
+    <description><![CDATA[+65° 16' 54.00", -126° 47' 54.00"<BR>]]></description>
+    <styleUrl>#style77</styleUrl>
+    <Point>
+      <coordinates>-126.798332,65.281670,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Norway House</name>
+    <description><![CDATA[+53° 59' 0.01", -97° 48' 0.04"<BR>]]></description>
+    <styleUrl>#style138</styleUrl>
+    <Point>
+      <coordinates>-97.800011,53.983337,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Otonabee River</name>
+    <description><![CDATA[+44° 9' 13.00", -78° 13' 52.00"<BR>]]></description>
+    <styleUrl>#style63</styleUrl>
+    <Point>
+      <coordinates>-78.231110,44.153610,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P10 (Yamachiche Bend)</name>
+    <description><![CDATA[+46° 12' 0.01", -72° 48' 52.61"<BR>]]></description>
+    <styleUrl>#style107</styleUrl>
+    <Point>
+      <coordinates>-72.814613,46.200005,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P11 (Lac ST. Pierre)</name>
+    <description><![CDATA[+46° 13' 53.09", -72° 42' 56.22"<BR>]]></description>
+    <styleUrl>#style104</styleUrl>
+    <Point>
+      <coordinates>-72.715614,46.231415,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P14 (Gentilly)</name>
+    <description><![CDATA[+46° 25' 27.65", -72° 19' 28.15"<BR>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-72.324486,46.424347,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P15 (Buoy D77)</name>
+    <description><![CDATA[+46° 28' 23.08", -72° 14' 6.81"<BR>]]></description>
+    <styleUrl>#style87</styleUrl>
+    <Point>
+      <coordinates>-72.235229,46.473076,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P16 (Grondines)</name>
+    <description><![CDATA[+46° 35' 21.31", -72° 2' 13.13"<BR>]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>-72.036980,46.589252,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P17 (Buoy D9)</name>
+    <description><![CDATA[+46° 34' 12.30", -72° 1' 54.59"<BR>]]></description>
+    <styleUrl>#style96</styleUrl>
+    <Point>
+      <coordinates>-72.031830,46.570084,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P18 (Portneuf)</name>
+    <description><![CDATA[+46° 40' 30.50", -71° 53' 53.62"<BR>]]></description>
+    <styleUrl>#style94</styleUrl>
+    <Point>
+      <coordinates>-71.898224,46.675140,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P19 (Buoy Q51)</name>
+    <description><![CDATA[+46° 37' 56.93", -71° 44' 50.95"<BR>]]></description>
+    <styleUrl>#style164</styleUrl>
+    <Point>
+      <coordinates>-71.747482,46.632481,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P2 (Below Buoy M175)</name>
+    <description><![CDATA[+45° 34' 45.71", -73° 30' 2.33"<BR>]]></description>
+    <styleUrl>#style54</styleUrl>
+    <Point>
+      <coordinates>-73.500648,45.579365,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P20 (Donnacona)</name>
+    <description><![CDATA[+46° 39' 12.21", -71° 44' 12.22"<BR>]]></description>
+    <styleUrl>#style110</styleUrl>
+    <Point>
+      <coordinates>-71.736725,46.653393,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P21 (Cap Rouge)</name>
+    <description><![CDATA[+46° 44' 24.82", -71° 20' 18.43"<BR>]]></description>
+    <styleUrl>#style118</styleUrl>
+    <Point>
+      <coordinates>-71.338455,46.740227,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P22 (Beauport)</name>
+    <description><![CDATA[+46° 44' 24.82", -71° 20' 18.43"<BR>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>-71.338455,46.740227,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P23 (Baie des Ha! Ha!)</name>
+    <description><![CDATA[+48° 20' 6.62", -70° 51' 39.69"<BR>]]></description>
+    <styleUrl>#style71</styleUrl>
+    <Point>
+      <coordinates>-70.861023,48.335171,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P23 (Northwest Section)</name>
+    <description><![CDATA[+48° 20' 6.64", -70° 51' 39.98"<BR>]]></description>
+    <styleUrl>#style153</styleUrl>
+    <Point>
+      <coordinates>-70.861107,48.335178,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P24 (Off Cap Ouest)</name>
+    <description><![CDATA[+48° 22' 46.77", -70° 45' 12.72"<BR>]]></description>
+    <styleUrl>#style113</styleUrl>
+    <Point>
+      <coordinates>-70.753532,48.379658,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P24 (Off Public Dock)</name>
+    <description><![CDATA[+48° 22' 46.80", -70° 45' 12.66"<BR>]]></description>
+    <styleUrl>#style119</styleUrl>
+    <Point>
+      <coordinates>-70.753517,48.379665,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P25 (Off Cap Rouge)</name>
+    <description><![CDATA[+48° 22' 12.53", -70° 32' 41.06"<BR>]]></description>
+    <styleUrl>#style65</styleUrl>
+    <Point>
+      <coordinates>-70.544739,48.370148,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P26 (Off Cap Trinite)</name>
+    <description><![CDATA[+48° 20' 9.78", -70° 19' 27.96"<BR>]]></description>
+    <styleUrl>#style74</styleUrl>
+    <Point>
+      <coordinates>-70.324432,48.336048,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P27 (Off Point au Boeuf)</name>
+    <description><![CDATA[+48° 16' 31.25", -70° 11' 30.80"<BR>]]></description>
+    <styleUrl>#style145</styleUrl>
+    <Point>
+      <coordinates>-70.191887,48.275349,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P28 (Anse A Pelletier)</name>
+    <description><![CDATA[+48° 24' 59.25", -70° 45' 7.27"<BR>]]></description>
+    <styleUrl>#style90</styleUrl>
+    <Point>
+      <coordinates>-70.752022,48.416458,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P29 (La Grande Anse NW)</name>
+    <description><![CDATA[+48° 24' 50.59", -70° 48' 22.08"<BR>]]></description>
+    <styleUrl>#style108</styleUrl>
+    <Point>
+      <coordinates>-70.806129,48.414055,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P30 (La Grande Anse N)</name>
+    <description><![CDATA[+48° 25' 25.24", -70° 49' 35.06"<BR>]]></description>
+    <styleUrl>#style162</styleUrl>
+    <Point>
+      <coordinates>-70.826408,48.423679,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P34 (Chicoutimi)</name>
+    <description><![CDATA[+48° 26' 30.70", -71° 4' 21.49"<BR>]]></description>
+    <styleUrl>#style122</styleUrl>
+    <Point>
+      <coordinates>-71.072632,48.441860,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P5 (N of Le St. Ours)</name>
+    <description><![CDATA[+45° 55' 38.79", -73° 13' 55.85"<BR>]]></description>
+    <styleUrl>#style154</styleUrl>
+    <Point>
+      <coordinates>-73.232178,45.927441,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P6 (NW Lac St. Pierre)</name>
+    <description><![CDATA[+46° 11' 38.53", -72° 56' 59.46"<BR>]]></description>
+    <styleUrl>#style127</styleUrl>
+    <Point>
+      <coordinates>-72.949852,46.194035,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>P9 (Lac St. Pierre)</name>
+    <description><![CDATA[+46° 10' 5.47", -72° 55' 14.69"<BR>]]></description>
+    <styleUrl>#style75</styleUrl>
+    <Point>
+      <coordinates>-72.920746,46.168186,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Percy Reach</name>
+    <description><![CDATA[+44° 14' 8.01", -77° 44' 58.93"<BR>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-77.749702,44.235558,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Peterborough (Little Lake)</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-78.309433,44.297756,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pond Inlet</name>
+    <description><![CDATA[+72° 41' 0.00", -78° 0' 0.00"<BR>]]></description>
+    <styleUrl>#style62</styleUrl>
+    <Point>
+      <coordinates>-78.000000,72.683334,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Port Colborne</name>
+    <description><![CDATA[+42° 54' 55.99", -79° 11' 35.01"<BR>]]></description>
+    <styleUrl>#style76</styleUrl>
+    <Point>
+      <coordinates>-79.193054,42.915554,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Port Weller</name>
+    <description><![CDATA[+43° 13' 17.00", -79° 13' 6.00"<BR>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>-79.218330,43.221390,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Primrose Lake</name>
+    <description><![CDATA[+54° 47' 15.00", -110° 1' 57.00"<BR>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>-110.032501,54.787498,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Quaqtaq</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-69.633621,61.046391,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Quaqtaq</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style69</styleUrl>
+    <Point>
+      <coordinates>-69.633652,61.046410,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Resolute</name>
+    <description><![CDATA[+74° 43' 0.02", -94° 59' 0.11"<BR>]]></description>
+    <styleUrl>#style57</styleUrl>
+    <Point>
+      <coordinates>-94.983368,74.716675,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Rice Lake</name>
+    <description><![CDATA[+44° 10' 19.00", -78° 10' 34.00"<BR>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-78.176109,44.171944,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sachs Harbour</name>
+    <description><![CDATA[+72° 0' 0.01", -125° 0' 0.06"<BR>]]></description>
+    <styleUrl>#style141</styleUrl>
+    <Point>
+      <coordinates>-125.000015,72.000000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sainte Agathe des Monts</name>
+    <description><![CDATA[+46° 3' 0.00", -74° 17' 0.00"<BR>]]></description>
+    <styleUrl>#style64</styleUrl>
+    <Point>
+      <coordinates>-74.283333,46.049999,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sault Ste Marie</name>
+    <description><![CDATA[+46° 30' 0.20", -84° 20' 56.85"<BR>]]></description>
+    <styleUrl>#style60</styleUrl>
+    <Point>
+      <coordinates>-84.349121,46.500057,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sault Ste Marie</name>
+    <description><![CDATA[+46° 30' 0.20", -84° 20' 56.85"<BR>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-84.349121,46.500057,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sault Ste Marie</name>
+    <description><![CDATA[+46° 30' 0.20", -84° 20' 56.85"<BR>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>-84.349121,46.500057,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sault Ste Marie</name>
+    <description><![CDATA[+46° 30' 0.20", -84° 20' 56.85"<BR>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>-84.349121,46.500057,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Schefferville</name>
+    <description><![CDATA[+54° 46' 59.98", -66° 43' 0.02"<BR>]]></description>
+    <styleUrl>#style86</styleUrl>
+    <Point>
+      <coordinates>-66.716675,54.783329,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shepherd Bay</name>
+    <description><![CDATA[+68° 50' 0.00", -93° 49' 59.96"<BR>]]></description>
+    <styleUrl>#style128</styleUrl>
+    <Point>
+      <coordinates>-93.833321,68.833336,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Six Mile Lake</name>
+    <description><![CDATA[+44° 54' 14.01", -79° 43' 52.00"<BR>]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>-79.731110,44.903893,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Souris</name>
+    <description><![CDATA[+46° 21' 0.00", -62° 15' 0.00"<BR>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-62.250000,46.350002,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>South Baymouth</name>
+    <description><![CDATA[+45° 33' 41.01", -82° 0' 36.03"<BR>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>-82.010010,45.561394,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sparrow Lake</name>
+    <description><![CDATA[+44° 48' 51.00", -79° 23' 16.00"<BR>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-79.387779,44.814167,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Spence Bay</name>
+    <description><![CDATA[+69° 24' 25.00", -93° 50' 0.02"<BR>]]></description>
+    <styleUrl>#style139</styleUrl>
+    <Point>
+      <coordinates>-93.833344,69.406944,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St. Peters Bay</name>
+    <description><![CDATA[+46° 25' 0.00", -62° 35' 0.00"<BR>]]></description>
+    <styleUrl>#style78</styleUrl>
+    <Point>
+      <coordinates>-62.583336,46.416668,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Stony Lake</name>
+    <description><![CDATA[+44° 34' 2.02", -78° 5' 27.02"<BR>]]></description>
+    <styleUrl>#style111</styleUrl>
+    <Point>
+      <coordinates>-78.090836,44.567230,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Ice thickness</name>
+  <description><![CDATA[]]></description>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/intl/en_ca/mapfiles/ms/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Alert LT1</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-62.582283,82.490685,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Alert YLT</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-62.347015,82.483276,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Baker Lake</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-96.083328,64.300003,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cambridge Bay</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-105.133331,69.116669,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coral Harbour</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-83.262115,64.128128,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Eureka</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-85.950005,79.983330,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hall Beach</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-81.233337,68.783333,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Inuvik</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-133.482788,68.304169,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Iqaluit</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-68.550003,63.750000,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Resolute</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-94.983368,74.716675,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Yellowknife</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-114.449997,62.466663,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
