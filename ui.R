@@ -5,7 +5,8 @@ shinyUI(
   navbarPage(
     "Canadian Ice Thickness Program", id = "nav",
     tabPanel("Introduction"),
-    tabPanel("Data"),
+    tabPanel("Data",
+             dataTableOutput("icedata")),
     tabPanel("Map",
              leafletOutput("icemap"))
   )

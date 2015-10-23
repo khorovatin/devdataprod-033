@@ -2,11 +2,12 @@ library(shiny)
 library(leaflet)
 library(htmltools)
 
-load("data/stnloc.Rda")
+load("data/oldstnloc.Rda")
+load("data/oldstndata.Rda")
 
 shinyServer(function(input, output, session) {
-  # Map
   
+  # Map
   output$icemap <- renderLeaflet({
     leaflet(data = stnloc) %>%
       addTiles() %>%
@@ -14,4 +15,8 @@ shinyServer(function(input, output, session) {
                   popup = ~htmlEscape(Name),
                   clusterOptions = markerClusterOptions())
   })
+  
+  # Data
+  output$icedata <- renderDataTable(stndata)
+  
 })

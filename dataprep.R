@@ -2,32 +2,80 @@ library(rgdal)
 library(leaflet)
 library(htmltools)
 library(gdata)
+library(dplyr)
 
-icekml <- "data/Icethickness.kml"
-icexls <- "data/Ice_thickness.xls"
+newicekml <- "data/Icethickness.kml"
+newicexls <- "data/Ice_thickness.xls"
+
+oldicekml <- "data/Originalicethickness.kml"
+oldicexls <- "data/original_program_data_20030304.xls"
 
 # Extract Coordinates and Name from KML
-stations <- readOGR(icekml, layer = "Ice thickness")
+oldstations <- readOGR(oldicekml, layer = "Original ice thickness")
+newstations <- readOGR(newicekml, layer = "Ice thickness")
 
-stnloc <- data.frame(
-  Name = stations@data$Name,
-  Lon = stations@coords[, "coords.x1"],
-  Lat = stations@coords[, "coords.x2"]
+oldstnloc <- data.frame(
+  Name = oldstations@data$Name,
+  Lon = oldstations@coords[, "coords.x1"],
+  Lat = oldstations@coords[, "coords.x2"]
 )
 
-save(stnloc, file = "data/stnloc.Rda")
+newstnloc <- data.frame(
+  Name = newstations@data$Name,
+  Lon = newstations@coords[, "coords.x1"],
+  Lat = newstations@coords[, "coords.x2"]
+)
+
+locNameFactors <- sort(union(levels(oldstnloc$Name), levels(newstnloc$Name)))
+
+oldstnloc <- mutate(oldstnloc, Name = factor(Name, levels = locNameFactors))
+newstnloc <- mutate(newstnloc, Name = factor(Name, levels = locNameFactors))
+
+allstnloc <- union(oldstnloc, newstnloc) %>%  arrange(Name)
+
+save(oldstnloc, file = "data/oldstnloc.Rda")
+save(newstnloc, file = "data/newstnloc.Rda")
+save(allstnloc, file = "data/allstnloc.Rda")
 
 # Combine all sheets in XLS to one data frame
-stndata <- do.call("rbind",
-                   lapply(sheetNames(icexls),
+oldstndata <- do.call("rbind",
+                   lapply(sheetNames(oldicexls),
                           function(n)
-                            read.xls(icexls,
+                            read.xls(oldicexls,
                                      sheet = n,
-                                     header = TRUE)))
+                                     header = FALSE,
+                                     skip = 2)))
 
-names(stndata) <- c("ID", "Name", "Date", "Ice", "Snow",
-                    "Method", "Surface", "Water")
+newstndata <- do.call("rbind",
+                      lapply(sheetNames(newicexls),
+                             function(n)
+                               read.xls(newicexls,
+                                        sheet = n,
+                                        header = TRUE)))
 
-stndata$Date <- as.Date(stndata$Date, "%Y-%m-%d")
+names(oldstndata) <- c("ID", "Name", "Date", "Ice", "Snow",
+                       "Method", "Surface", "Water")
 
-save(stndata, file = "data/stndata.Rda")
+names(newstndata) <- c("ID", "Name", "Date", "Ice", "Snow",
+                       "Method", "Surface", "Water")
+
+oldstndata$Date <- as.Date(oldstndata$Date, "%Y-%m-%d")
+
+newstndata$Date <- as.Date(newstndata$Date, "%Y-%m-%d")
+
+dataIDFactors <- sort(union(levels(oldstndata$ID), levels(newstndata$ID)))
+dataNameFactors <- sort(union(levels(oldstndata$Name), levels(newstndata$Name)))
+
+oldstndata <- mutate(oldstndata, 
+                     ID = factor(ID, levels = dataIDFactors),
+                     Name = factor(Name, levels = dataNameFactors))
+
+newstndata <- mutate(newstndata, 
+                     ID = factor(ID, levels = dataIDFactors),
+                     Name = factor(Name, levels = dataNameFactors))
+
+allstndata <- union(oldstndata, newstndata) %>% arrange(ID, Date)
+
+save(oldstndata, file = "data/oldstndata.Rda")
+save(newstndata, file = "data/newstndata.Rda")
+save(allstndata, file = "data/allstndata.Rda")
