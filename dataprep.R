@@ -16,22 +16,30 @@ newstations <- readOGR(newicekml, layer = "Ice thickness")
 
 oldstnloc <- data.frame(
   Name = oldstations@data$Name,
-  Lon = oldstations@coords[, "coords.x1"],
-  Lat = oldstations@coords[, "coords.x2"]
+  lng = oldstations@coords[, "coords.x1"],
+  lat = oldstations@coords[, "coords.x2"]
 )
 
 newstnloc <- data.frame(
   Name = newstations@data$Name,
-  Lon = newstations@coords[, "coords.x1"],
-  Lat = newstations@coords[, "coords.x2"]
+  lng = newstations@coords[, "coords.x1"],
+  lat = newstations@coords[, "coords.x2"]
 )
 
 locNameFactors <- sort(union(levels(oldstnloc$Name), levels(newstnloc$Name)))
+colLevels <- c("Original", "New")
 
-oldstnloc <- mutate(oldstnloc, Name = factor(Name, levels = locNameFactors))
-newstnloc <- mutate(newstnloc, Name = factor(Name, levels = locNameFactors))
+oldstnloc <- mutate(oldstnloc, 
+                    Name = factor(Name, levels = locNameFactors),
+                    Collection = factor("Original", levels = colLevels))
+newstnloc <- mutate(newstnloc, 
+                    Name = factor(Name, levels = locNameFactors),
+                    Collection = factor("New", levels = colLevels))
+
 
 allstnloc <- union(oldstnloc, newstnloc) %>%  arrange(Name)
+
+allstnloc <- mutate(allstnloc, Name = as.character(Name))
 
 save(oldstnloc, file = "data/oldstnloc.Rda")
 save(newstnloc, file = "data/newstnloc.Rda")
@@ -68,13 +76,19 @@ dataNameFactors <- sort(union(levels(oldstndata$Name), levels(newstndata$Name)))
 
 oldstndata <- mutate(oldstndata, 
                      ID = factor(ID, levels = dataIDFactors),
-                     Name = factor(Name, levels = dataNameFactors))
+                     Name = factor(Name, levels = dataNameFactors),
+                     Collection = factor("Original", levels = colLevels)
+)
 
 newstndata <- mutate(newstndata, 
                      ID = factor(ID, levels = dataIDFactors),
-                     Name = factor(Name, levels = dataNameFactors))
+                     Name = factor(Name, levels = dataNameFactors),
+                     Collection = factor("New", levels = colLevels)
+)
 
 allstndata <- union(oldstndata, newstndata) %>% arrange(ID, Date)
+
+allstndata <- mutate(allstndata, Name = as.character(Name))
 
 save(oldstndata, file = "data/oldstndata.Rda")
 save(newstndata, file = "data/newstndata.Rda")
