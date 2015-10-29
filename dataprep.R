@@ -18,28 +18,31 @@ oldstnloc <- data.frame(
   Name = oldstations@data$Name,
   lng = oldstations@coords[, "coords.x1"],
   lat = oldstations@coords[, "coords.x2"]
-)
+) %>% 
+  group_by(Name) %>% 
+  filter(row_number() == 1) %>% 
+  ungroup()
 
 newstnloc <- data.frame(
   Name = newstations@data$Name,
   lng = newstations@coords[, "coords.x1"],
   lat = newstations@coords[, "coords.x2"]
-)
+) %>% 
+  group_by(Name) %>% 
+  filter(row_number() == 1) %>% 
+  ungroup()
 
-locNameFactors <- sort(union(levels(oldstnloc$Name), levels(newstnloc$Name)))
-colLevels <- c("Original", "New")
+locNameFactors <- sort(union(levels(oldstnloc$Name), 
+                                 levels(newstnloc$Name)))
 
 oldstnloc <- mutate(oldstnloc, 
-                    Name = factor(Name, levels = locNameFactors),
-                    Collection = factor("Original", levels = colLevels))
+                    Name = factor(Name, levels = locNameFactors))
 newstnloc <- mutate(newstnloc, 
-                    Name = factor(Name, levels = locNameFactors),
-                    Collection = factor("New", levels = colLevels))
+                    Name = factor(Name, levels = locNameFactors))
 
-
-allstnloc <- union(oldstnloc, newstnloc) %>%  arrange(Name)
-
-allstnloc <- mutate(allstnloc, Name = as.character(Name))
+allstnloc <- dplyr:::union(oldstnloc, newstnloc) %>%  
+  arrange(Name) %>% 
+  mutate(Name = as.character(Name), JoinName = toupper(Name))
 
 save(oldstnloc, file = "data/oldstnloc.Rda")
 save(newstnloc, file = "data/newstnloc.Rda")
@@ -71,24 +74,23 @@ oldstndata$Date <- as.Date(oldstndata$Date, "%Y-%m-%d")
 
 newstndata$Date <- as.Date(newstndata$Date, "%Y-%m-%d")
 
-dataIDFactors <- sort(union(levels(oldstndata$ID), levels(newstndata$ID)))
-dataNameFactors <- sort(union(levels(oldstndata$Name), levels(newstndata$Name)))
+dataIDFactors <- sort(union(levels(oldstndata$ID), 
+                            levels(newstndata$ID)))
+dataNameFactors <- sort(union(levels(oldstndata$Name), 
+                                  levels(newstndata$Name)))
 
 oldstndata <- mutate(oldstndata, 
                      ID = factor(ID, levels = dataIDFactors),
-                     Name = factor(Name, levels = dataNameFactors),
-                     Collection = factor("Original", levels = colLevels)
-)
+                     Name = factor(Name, levels = dataNameFactors))
 
 newstndata <- mutate(newstndata, 
                      ID = factor(ID, levels = dataIDFactors),
-                     Name = factor(Name, levels = dataNameFactors),
-                     Collection = factor("New", levels = colLevels)
-)
+                     Name = factor(Name, levels = dataNameFactors))
 
-allstndata <- union(oldstndata, newstndata) %>% arrange(ID, Date)
-
-allstndata <- mutate(allstndata, Name = as.character(Name))
+allstndata <- dplyr:::union(oldstndata, newstndata) %>% 
+  arrange(ID, Date) %>% 
+  mutate(Name = as.character(Name),
+         JoinName = toupper(Name))
 
 save(oldstndata, file = "data/oldstndata.Rda")
 save(newstndata, file = "data/newstndata.Rda")

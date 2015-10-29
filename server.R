@@ -8,7 +8,9 @@ library(lubridate)
 load("data/allstnloc.Rda")
 load("data/allstndata.Rda")
 
-allstndata <- left_join(allstndata, allstnloc, by = c("Collection", "Name"))
+allstndata <- inner_join(allstnloc, allstndata, by = "JoinName") %>% 
+  select(-c(JoinName, Name.y)) %>% 
+  rename(Name = Name.x)
 
 # Infix "between" function. Designed to behave like a SQL BETWEEN, where the
 # comparison includes both endpoints.
@@ -41,6 +43,8 @@ shinyServer(function(input, output, session) {
                 print(lngs)
                 print(nrow(filter(allstndata, year(Date) %between% input$year)))
                 print(nrow(filter(allstndata, lng %between% lngs, lat %between% lats)))
+                print(nrow(filter(allstndata, lng %between% lngs, lat %between% lats,
+                                  year(Date) %between% input$year)))
                 allstndata %>% 
                         filter(lng %between% lngs, lat %between% lats,
                                year(Date) %between% input$year)
