@@ -65,18 +65,24 @@ shinyServer(function(input, output, session) {
     if (nrow(stnDataInBounds()) == 0)
       return(NULL)
     
+    give.n <- function(x) {
+      return(c(y = -10, label = length(x)))
+    }
+    
     qplot(
       as.factor(year(Date)), 
       Ice, 
       data = stnDataInBounds(), 
-      geom = "boxplot") + 
-      xlab("Years") + 
-      ylab("Ice Thickness (cm)") +
-      stat_summary(fun.y = mean, 
-                   geom = "point", shape = 5, size = 4) + 
-      geom_jitter(position = position_jitter(width = .2), 
-                  size = 3) + 
-      geom_smooth(aes(group = 1), method = "lm", se = TRUE)
+      geom = "boxplot",
+      main = "All Ice Thickness Measurements for Time and Region Selected",
+      xlab = "Years",
+      ylab = "Ice Thickness (cm)") +
+      stat_summary(fun.y = mean, geom = "point", shape = 5, size = 4) + 
+      stat_summary(fun.data = give.n, geom = "text", size = 3) +
+      geom_jitter(
+        position = position_jitter(width = .2), size = 2, alpha = .2
+      ) + 
+      geom_smooth(aes(group = 1), method = "lm", se = TRUE, na.rm = TRUE)
   })
   
   # Data
