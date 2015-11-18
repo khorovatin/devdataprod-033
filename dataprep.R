@@ -10,6 +10,10 @@ newicexls <- "data/Ice_thickness.xls"
 oldicekml <- "data/Originalicethickness.kml"
 oldicexls <- "data/original_program_data_20030304.xls"
 
+join_names <- read.csv(
+  "data/JoinNames.csv", header = TRUE, stringsAsFactors = FALSE
+)
+
 # Extract Coordinates and Name from KML
 oldstations <- readOGR(oldicekml, layer = "Original ice thickness")
 newstations <- readOGR(newicekml, layer = "Ice thickness")
@@ -89,8 +93,8 @@ newstndata <- mutate(newstndata,
 
 allstndata <- dplyr:::union(oldstndata, newstndata) %>% 
   arrange(ID, Date) %>% 
-  mutate(Name = as.character(Name),
-         JoinName = toupper(Name))
+  mutate(Name = as.character(Name)) %>%
+  inner_join(join_names)
 
 save(oldstndata, file = "data/oldstndata.Rda")
 save(newstndata, file = "data/newstndata.Rda")

@@ -10,7 +10,8 @@ load("data/allstndata.Rda")
 
 allstndata <- inner_join(allstnloc, allstndata, by = "JoinName") %>% 
   select(-c(JoinName, Name.y)) %>% 
-  rename(Name = Name.x)
+  rename(Name = Name.x) %>% 
+  filter(!is.na(Ice))
 
 # Infix "between" function. Designed to behave like a SQL BETWEEN, where the
 # comparison includes both endpoints.
@@ -55,10 +56,19 @@ shinyServer(function(input, output, session) {
     minYear <- yearRange[1]
     maxYear <- yearRange[2]
     
-    leafletProxy("icemap", session, data = allstnloc) %>% 
-      clearMarkers() %>% 
-      addMarkers( ~lng, ~lat, popup = ~htmlEscape(Name),
-                  clusterOptions = markerClusterOptions())
+    stnWithMeasurements <- allstndata %>% 
+      filter(year(Date) %in% yearRange) %>% 
+      select(Name, lng, lat) %>% 
+      distinct()
+    
+    map <- leafletProxy("icemap", session, data = stnWithMeasurements)
+    
+    map %>% clearMarkers() 
+    
+    if (nrow(stnWithMeasurements) > 0) { 
+      map %>% addMarkers(~lng, ~lat, popup = ~htmlEscape(Name),
+                         clusterOptions = markerClusterOptions())
+    }
   })
   
   output$plot <- renderPlot({
@@ -74,7 +84,7 @@ shinyServer(function(input, output, session) {
       Ice, 
       data = stnDataInBounds(), 
       geom = "boxplot",
-      main = "All Ice Thickness Measurements for Time and Region Selected",
+      main = "All Ice Thickness Measurements and Counts\nfor Time Period and Region Selected",
       xlab = "Years",
       ylab = "Ice Thickness (cm)") +
       stat_summary(fun.y = mean, geom = "point", shape = 5, size = 4) + 
@@ -92,3 +102,4 @@ shinyServer(function(input, output, session) {
                                     ))
   
 })
+
