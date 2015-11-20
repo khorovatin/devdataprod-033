@@ -4,14 +4,14 @@ library(htmltools)
 library(dplyr)
 library(ggplot2)
 library(lubridate)
+library(data.table)
 
 load("data/allstnloc.Rda")
+allstnloc <- data.table(allstnloc, key = "JoinName")
 load("data/allstndata.Rda")
+allstndata <- data.table(allstndata, key = "JoinName")
 
-allstndata <- inner_join(allstnloc, allstndata, by = "JoinName") %>% 
-  select(-c(JoinName, Name.y)) %>% 
-  rename(Name = Name.x) %>% 
-  filter(!is.na(Ice))
+allstndata <- allstnloc[allstndata][, c("JoinName", "i.Name") := NULL]
 
 # Infix "between" function. Designed to behave like a SQL BETWEEN, where the
 # comparison includes both endpoints.
@@ -89,9 +89,9 @@ shinyServer(function(input, output, session) {
       ylab = "Ice Thickness (cm)") +
       stat_summary(fun.y = mean, geom = "point", shape = 5, size = 4) + 
       stat_summary(fun.data = give.n, geom = "text", size = 3) +
-      geom_jitter(
-        position = position_jitter(width = .2), size = 2, alpha = .2
-      ) + 
+#       geom_jitter(
+#         position = position_jitter(width = .2), size = 2, alpha = .2
+#       ) + 
       geom_smooth(aes(group = 1), method = "lm", se = TRUE, na.rm = TRUE)
   })
   
