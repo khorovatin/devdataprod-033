@@ -6,10 +6,13 @@ library(ggplot2)
 library(lubridate)
 library(data.table)
 
+# Load prepared data files and convert them to data tables so they can be
+# manipulated quickly
 load("data/allstnloc.Rda")
 allstnloc <- data.table(allstnloc, key = "JoinName")
 load("data/allstndata.Rda")
 allstndata <- data.table(allstndata, key = "JoinName")
+
 
 allstndata <- allstnloc[allstndata][, c("JoinName", "i.Name") := NULL]
 
@@ -96,7 +99,7 @@ shinyServer(function(input, output, session) {
   })
   
   # Data
-  output$icedata <- renderDataTable(allstndata,
+  output$icedata <- renderDataTable(allstndata[, c("lng", "lat") := NULL],
                                     options = list(
                                       pageLength = 10
                                     ))

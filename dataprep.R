@@ -18,23 +18,21 @@ join_names <- read.csv(
 oldstations <- readOGR(oldicekml, layer = "Original ice thickness")
 newstations <- readOGR(newicekml, layer = "Ice thickness")
 
-oldstnloc <- data.frame(
+oldstnloc <- data.table(
   Name = oldstations@data$Name,
   lng = oldstations@coords[, "coords.x1"],
   lat = oldstations@coords[, "coords.x2"]
 ) %>% 
-  group_by(Name) %>% 
-  filter(row_number() == 1) %>% 
-  ungroup()
+  setkey(Name) %>% 
+  unique()
 
-newstnloc <- data.frame(
+newstnloc <- data.table(
   Name = newstations@data$Name,
   lng = newstations@coords[, "coords.x1"],
   lat = newstations@coords[, "coords.x2"]
 ) %>% 
-  group_by(Name) %>% 
-  filter(row_number() == 1) %>% 
-  ungroup()
+  setkey(Name) %>% 
+  unique()
 
 locNameFactors <- sort(union(levels(oldstnloc$Name), 
                                  levels(newstnloc$Name)))
@@ -68,28 +66,25 @@ newstndata <- do.call("rbind",
                                         sheet = n,
                                         header = TRUE)))
 
-names(oldstndata) <- c("ID", "Name", "Date", "Ice", "Snow",
-                       "Method", "Surface", "Water")
+newcolnames <- c("ID", "Name", "Date", "Ice", "Snow", 
+                 "Method", "Surface", "Water")
 
-names(newstndata) <- c("ID", "Name", "Date", "Ice", "Snow",
-                       "Method", "Surface", "Water")
+names(oldstndata) <- newcolnames
+names(newstndata) <- newcolnames
 
-oldstndata$Date <- as.Date(oldstndata$Date, "%Y-%m-%d")
-
-newstndata$Date <- as.Date(newstndata$Date, "%Y-%m-%d")
+oldstndata[, Date := as.Date(Date, "%Y-%m-%d")]
+newstndata[, Date := as.Date(Date, "%Y-%m-%d")]
 
 dataIDFactors <- sort(union(levels(oldstndata$ID), 
                             levels(newstndata$ID)))
 dataNameFactors <- sort(union(levels(oldstndata$Name), 
-                                  levels(newstndata$Name)))
+                              levels(newstndata$Name)))
 
-oldstndata <- mutate(oldstndata, 
-                     ID = factor(ID, levels = dataIDFactors),
-                     Name = factor(Name, levels = dataNameFactors))
+oldstndata[, ':=' (ID = factor(ID, levels = dataIDFactors),
+                   Name = factor(Name, levels = dataNameFactors))]
 
-newstndata <- mutate(newstndata, 
-                     ID = factor(ID, levels = dataIDFactors),
-                     Name = factor(Name, levels = dataNameFactors))
+newstndata[, ':=' (ID = factor(ID, levels = dataIDFactors),
+                   Name = factor(Name, levels = dataNameFactors))]
 
 allstndata <- dplyr:::union(oldstndata, newstndata) %>% 
   arrange(ID, Date) %>% 
