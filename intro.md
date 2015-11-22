@@ -14,9 +14,17 @@ You may browse the entire data set by viewing the "Data" tab, or you may see
 the station locations on a map in the "Map" tab. The map tab also displays a 
 "box plot" of all the ice thickness data gathered by the stations visible in 
 the bounds of the map with a linear trend line with 95% confidence shading 
-superimposed. The date range of the box plot can be modified using the slider 
-present on the map tab.
+superimposed. The number of ice thickness measurements each year displayed in  
+the box plot is displayed along the bottom axis line. The date range of the 
+box plot can be modified using the slider present on the map tab.
+
+You can zoom into selected regions of the map by clicking on the coloured 
+circles, or by using the mouse wheel or zoom controls on the map. The box plot 
+will update to show the measurements for the stations within the bounds of the 
+map as displayed.
 
 This application has not been produced in affiliation with or with the 
 endorsement of the Government of Canada.
 
+Full source code of this application can be viewed on GitHub at 
+(https://github.com/khorovatin/devdataprod-033).

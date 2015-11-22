@@ -1,7 +1,6 @@
 library(shiny)
 library(leaflet)
 
-
 shinyUI(
         navbarPage("Canadian Ice Thickness Program",
                 tabPanel("Introduction",
