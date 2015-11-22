@@ -109,6 +109,6 @@ extracols <- c("Snow", "Method", "Surface", "Water")
 allstndata[, (extracols) := NULL]
 
 # Remove rows with Ice == NA or with bad date data
-allstndata[!is.na(Ice) | year(Date) >= 1947]
+allstndata <- allstndata[!is.na(Ice) | year(Date) >= 1947]
 
 save(allstndata, file = "data/allstndata.Rda")
